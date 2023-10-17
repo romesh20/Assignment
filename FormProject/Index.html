@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <p>Customer Survey Form</p>
+        </div>
+    </header>
+    <main>
+        <div class="test">
+            <form action="#">
+                <div class="nameemail">
+                    <div class="name">
+                        <label for="Name">Name</label>
+                        <br>
+                        <input type="text" id="Name" required>
+                    </div>
+                    <div class="email">
+                        <label for="Email">Email</label>
+                        <br>
+                        <input type="email" id="Email" required>
+                    </div>
+                </div>
+                <div class="content">
+                    <label>Is this first time you are using our product & Service?</label>
+                    <br>
+                    <input type="radio" name="Newuser" id="respond1" value="yes" required checked>
+                    <label for="respond1">Yes</label>
+                    <input type="radio" name="Newuser" id="respond2" value="No" >
+                    <label for="respond2">No</label>
+                    <br>
+                    <br>
+                    <label>Would you suggestion your friends and collegue</label>
+                    <br>
+                    <input type="radio" name="suggestion" id="respond3" value="yes" required checked>
+                    <label for="respond3">Yes</label>
+                    <input type="radio" name="suggestion" id="respond4" value="No" >
+                    <label for="respond4">No</label>
+                    <br>
+                    <br>
+                    <label>How satisfied are you with your company overall?</label>
+                    <br>
+                    <input type="radio" name="Satisfication" id="respond5" value="Satisfied" required checked>
+                    <label for="respond3">Satisfied</label>
+                  
+                    <input type="radio" name="Satisfication" id="respond6" value="undecided" >
+                    <label for="respond4">Undecided</label>
+                    <input type="radio" name="Satisfication" id="respond6" value="unsatisfied" >
+                    <label for="respond4">Unsatisfied</label>
+                    <br>
+                    <label for="feedback">Do you have suggestion to improve out Service?</label>
+                    <br>
+                    <textarea id="feedback" rows="6" cols="80s" required></textarea>
+                    <br>
+                    <div id="SUBMIT">
+                    <button>Submit</button>
+                    </div>
+
+
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <p>&#169 2018 Customer Survey Form.All Rights Reserved | Design By <a href="https://w3school.com">W3layout</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
